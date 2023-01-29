@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^vcard\.hightecheshop\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.vcard\.hightecheshop\.com$
+RewriteRule ^catalogue$ "https\:\/\/docs\.google\.com\/spreadsheets\/d\/e\/2PACX\-1vQTnNgOT8t3niAG1_CsDCMB\-Di2jd4ukd81GojFFXsli6Y0HDk6tXygHEkRQGMCUQtJLxNN5gQRO1Jg\/pubhtml" [R=301,L]
+
